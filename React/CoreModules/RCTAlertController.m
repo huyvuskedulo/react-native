@@ -19,6 +19,7 @@
 
 - (UIWindow *)alertWindow
 {
+// don't get it at all
   if (_alertWindow == nil) {
     if (@available(iOS 13.0, *)) {
         for (UIWindowScene *scene in RCTSharedApplication().connectedScenes) {
